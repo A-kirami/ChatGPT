@@ -25,8 +25,7 @@ class Chatbot:
         }
 
     def generate_uuid(self):
-        uid = str(uuid.uuid4())
-        return uid
+        return str(uuid.uuid4())
         
     def get_chat_response(self, prompt):
         data = {

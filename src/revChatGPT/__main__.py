@@ -11,10 +11,7 @@ def get_input(prompt):
           break
       lines.append(line)
 
-  # Join the lines, separated by newlines, and print the result
-  user_input = "\n".join(lines)
-  #print(user_input)
-  return user_input
+  return "\n".join(lines)
 
 if __name__ == "__main__":
     print("""
